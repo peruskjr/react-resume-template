@@ -1,7 +1,6 @@
 import {
   AcademicCapIcon,
   CalendarIcon,
-  DownloadIcon,
   FlagIcon,
   MapIcon,
   OfficeBuildingIcon,
@@ -9,10 +8,7 @@ import {
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -25,7 +21,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepicme from '../images/profilepicme.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -44,8 +40,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Paul Rusk',
+  description: "Website built with react and styled with tailwindCSS.",
 };
 
 /**
@@ -69,27 +65,26 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Paul Rusk.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a New Jersey based <strong className="text-stone-100">Data Analyst</strong> and <strong className="text-stone-100"> recent Master's graduate</strong>, currently looking
+        for <strong className="text-stone-100">Data Scientist</strong> related postions.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        My recent interests include reading <strong className="text-stone-100">Warhammer 40k</strong> and <strong className="text-stone-100">Berserk</strong>,
+        playing my <strong className="text-stone-100">guitar</strong>, <strong className="text-stone-100">bodybuilding</strong>, and testing myself with a{' '}
+        <strong className="text-stone-100">Rubik's cube</strong>.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: `#${SectionId.Resume}`,
       text: 'Resume',
-      primary: true,
-      Icon: DownloadIcon,
+      primary: false,
+      
     },
     {
       href: `#${SectionId.Contact}`,
@@ -103,17 +98,15 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  profileImageSrc: profilepicme,
+  description: `Accomplished data analyst with extensive work experience from the world's largest musicians' labor union and recent Master's graduate.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Woodbridge, NJ', Icon: MapIcon},
+    {label: 'Age', text: '30', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'American / Polish', Icon: FlagIcon},
+    {label: 'Interests', text: 'Movies (especially scary!), anime, sports (Jets,Mets,Knicks), music (guitar, piano)', Icon: SparklesIcon},
+    {label: 'Study', text: 'New Jersey Institute of Technology', Icon: AcademicCapIcon},
+    {label: 'Most Recent Position', text: 'Data Analyst at Local 802 AFM', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -129,63 +122,63 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
         name: 'Spanish',
         level: 3,
       },
+      {
+        name: 'Russian',
+        level: 2,
+      },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Programming Languages',
     skills: [
       {
-        name: 'React',
+        name: 'Python',
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
+        name: 'R',
         level: 6,
       },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
       {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
+        name: 'Java',
         level: 5,
       },
-      {
-        name: 'Golang',
-        level: 4,
-      },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Other Technologies',
     skills: [
       {
-        name: 'React Native',
+        name: 'SQL',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Linux',
+        level: 9,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'AWS(Ec2,s3)',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Other Technologies',
+    skills: [
+      {
+        name: 'Pandas',
+        level: 9,
+      },
+      {
+        name: 'Keras',
+        level: 6,
+      },
+      {
+        name: 'Git',
+        level: 6,
       },
     ],
   },
@@ -198,67 +191,67 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: '',
     image: porfolioImage1,
   },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: '',
     image: porfolioImage2,
   },
   {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: '',
     image: porfolioImage3,
   },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: '',
     image: porfolioImage4,
   },
   {
     title: 'Project title 5',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: '',
     image: porfolioImage5,
   },
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: '',
     image: porfolioImage6,
   },
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: '',
     image: porfolioImage7,
   },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: '',
     image: porfolioImage8,
   },
   {
     title: 'Project title 9',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: '',
     image: porfolioImage9,
   },
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: '',
     image: porfolioImage10,
   },
   {
     title: 'Project title 11',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: '',
     image: porfolioImage11,
   },
 ];
@@ -268,40 +261,62 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'December 2022',
+    location: 'Newark, New Jersey',
+    title: 'Master of Science - MS, Computational Data Science______________',
+    content: <p></p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'May 2021',
+    location: 'Newark, New Jersey',
+    title: 'Bachelor of Arts - BA, Molecular Biology____________________________ Minor - Information Technology',
+    content: <p></p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'August 2019 - November 2022',
+    location: 'Local 802 AFM',
+    title: 'Data Analyst | Systems Engineer',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ol>
+        <li style={{ marginBottom: '10px' }}>•Built an mlp for member churn that fueled an outreach
+        program, reducing membership resignations by about 20%.</li>
+
+        <li style={{ marginBottom: '10px' }}>•Centralized data from several dated proprietary systems to formulate a more stable and robust way of accessing
+        mission critical information for employees. This included extracting data from an old COBOL system as well as 
+        another proprietary database.</li>
+
+        <li style={{ marginBottom: '10px' }}>•Created an interactive dashboard displaying a comparative analysis of the volume of work completed over
+        time by ourmembers for NY Senators. This led to increased funding.</li>
+
+        <li style={{ marginBottom: '10px' }}>•Automated workflows and monthly financial reports between SQL systems using Python, saving several hours
+        of employee labor a month.</li>
+
+        <li style={{ marginBottom: '10px' }}>•Used analytical methods to centralize key documents, finding over $700,000 of unallocated funds.</li>
+
+        <li style={{ marginBottom: '10px' }}>•Implemented an automated payment reminder that drastically reduced the amount of suspended members per quarter.</li>
+
+        <li>•Mapped out and redesigned the workflow of each department to plan for efficiencies, allowing a 60 person organization
+        to survive on a skeleton staff of 8 during COVID shutdowns.</li>
+      </ol>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'April 2018 - August 2019',
+    location: 'Local 802 AFM',
+    title: 'Systems Administrator',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ol>
+        <li style={{ marginBottom: '10px' }}>•Coordinated with Sophos Antivirus Global Dev team that lead to a global patch for their 
+        10 million users. One of their services wascausing a kernel panic on Win10.</li>
+
+        <li style={{ marginBottom: '10px' }}>•Managed communications between various hardware and OS’s, both Windows and Linux, such as
+        servers, DCS, switches, firewalls, SANs, etc.</li>
+
+        <li>•Experience with the use of virtualization, including both VMWare and Hyper-V.</li>
+      </ol>
     ),
   },
 ];
@@ -314,17 +329,17 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      text: 'This man, is the perfect gentleman.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
       name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      text: 'The absolute wham bam.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
       name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      text: 'This guy fucks!',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
@@ -336,27 +351,22 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: '',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'peruskjr@gmail.com',
+      href: 'mailto:peruskjr@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: 'Woodbridge, New Jersey',
+      href: 'https://www.google.com/maps/place/Woodbridge+Township,+NJ/@40.5498539,-74.283391,12z',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'peruskjr',
+      href: 'https://github.com/peruskjr',
     },
   ],
 };
@@ -365,9 +375,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/peruskjr'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/paulruskdatascience/'},
+  
 ];
