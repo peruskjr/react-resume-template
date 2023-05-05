@@ -374,7 +374,7 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch. (under construction',
+  headerText: 'Get in touch. (under construction)',
   description: '',
   items: [
     {
