@@ -41,7 +41,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Paul Rusk',
-  description: "A personal resume website template built with React.js, Typescript, Next.js, and styled with Tailwind css",
+  description: "A personal resume website built with React.js, Typescript, Next.js, and styled with Tailwind css",
 };
 
 /**
