@@ -281,22 +281,22 @@ export const experience: TimelineItem[] = [
     title: 'Data Analyst | Systems Engineer',
     content: (
       <ol>
-        <li style={{ marginBottom: '10px' }}>•Built an mlp for member churn that fueled an outreach
+        <li style={{marginBottom: '10px'}}>•Built an mlp for member churn that fueled an outreach
         program, reducing membership resignations by about 20%.</li>
 
-        <li style={{ marginBottom: '10px' }}>•Centralized data from several dated proprietary systems to formulate a more stable and robust way of accessing
+        <li style={{marginBottom: '10px'}}>•Centralized data from several dated proprietary systems to formulate a more stable and robust way of accessing
         mission critical information for employees. This included extracting data from an old COBOL system as well as 
         another proprietary database.</li>
 
-        <li style={{ marginBottom: '10px' }}>•Created an interactive dashboard displaying a comparative analysis of the volume of work completed over
+        <li style={{marginBottom: '10px'}}>•Created an interactive dashboard displaying a comparative analysis of the volume of work completed over
         time by ourmembers for NY Senators. This led to increased funding.</li>
 
-        <li style={{ marginBottom: '10px' }}>•Automated workflows and monthly financial reports between SQL systems using Python, saving several hours
+        <li style={{marginBottom: '10px'}}>•Automated workflows and monthly financial reports between SQL systems using Python, saving several hours
         of employee labor a month.</li>
 
-        <li style={{ marginBottom: '10px' }}>•Used analytical methods to centralize key documents, finding over $700,000 of unallocated funds.</li>
+        <li style={{marginBottom: '10px'}}>•Used analytical methods to centralize key documents, finding over $700,000 of unallocated funds.</li>
 
-        <li style={{ marginBottom: '10px' }}>•Implemented an automated payment reminder that drastically reduced the amount of suspended members per quarter.</li>
+        <li style={{marginBottom: '10px'}}>•Implemented an automated payment reminder that drastically reduced the amount of suspended members per quarter.</li>
 
         <li>•Mapped out and redesigned the workflow of each department to plan for efficiencies, allowing a 60 person organization
         to survive on a skeleton staff of 8 during COVID shutdowns.</li>
@@ -309,10 +309,10 @@ export const experience: TimelineItem[] = [
     title: 'Systems Administrator',
     content: (
       <ol>
-        <li style={{ marginBottom: '10px' }}>•Coordinated with Sophos Antivirus Global Dev team that lead to a global patch for their 
+        <li style={{marginBottom: '10px'}}>•Coordinated with Sophos Antivirus Global Dev team that lead to a global patch for their 
         10 million users. One of their services wascausing a kernel panic on Win10.</li>
 
-        <li style={{ marginBottom: '10px' }}>•Managed communications between various hardware and OS’s, both Windows and Linux, such as
+        <li style={{marginBottom: '10px'}}>•Managed communications between various hardware and OS’s, both Windows and Linux, such as
         servers, DCS, switches, firewalls, SANs, etc.</li>
 
         <li>•Experience with the use of virtualization, including both VMWare and Hyper-V.</li>
