@@ -289,7 +289,7 @@ export const experience: TimelineItem[] = [
         another proprietary database.</li>
 
         <li style={{marginBottom: '10px'}}>•Created an interactive dashboard displaying a comparative analysis of the volume of work completed over
-        time by ourmembers for NY Senators. This led to increased funding.</li>
+        time by our members for NY Senators. This led to increased funding.</li>
 
         <li style={{marginBottom: '10px'}}>•Automated workflows and monthly financial reports between SQL systems using Python, saving several hours
         of employee labor a month.</li>
