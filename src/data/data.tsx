@@ -149,7 +149,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Other Technologies',
+    name: 'Proficient Technologies',
     skills: [
       {
         name: 'SQL',
@@ -163,22 +163,46 @@ export const skills: SkillGroup[] = [
         name: 'AWS(Ec2,s3)',
         level: 8,
       },
-    ],
-  },
-  {
-    name: 'Other Technologies',
-    skills: [
       {
         name: 'Pandas',
         level: 9,
       },
       {
-        name: 'Git',
+        name: 'Scikit-Learn',
         level: 8,
       },
       {
-        name: 'Keras',
+        name: 'Git',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Familiar Technologies',
+    skills: [
+      {
+        name: 'Django',
         level: 6,
+      },
+      {
+        name: 'React.js',
+        level: 4,
+      },
+      {
+        name: 'Hadoop',
+        level: 5,
+      },
+      {
+        name: 'Tableau',
+        level: 8,
+      },
+      {
+        name: 'keras',
+        level: 6,
+      },
+      {
+        name: 'Pytorch',
+        level: 4,
       },
     ],
   },
@@ -350,7 +374,7 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
+  headerText: 'Get in touch. (under construction',
   description: '',
   items: [
     {
