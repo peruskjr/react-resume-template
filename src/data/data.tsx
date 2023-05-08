@@ -213,9 +213,9 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: '',
+    title: 'Streamlit',
+    description: 'Here is a collection of my custom ml apps built with streamlit!',
+    url: 'https://peruskjr-heart-streamlit-app-5phejt.streamlit.app/',
     image: porfolioImage1,
   },
   {
