@@ -288,7 +288,7 @@ export const education: TimelineItem[] = [
     date: 'December 2022',
     location: 'Newark, New Jersey',
     title: 'Master of Science - MS, Computational Data Science',
-    title2:'',
+    title2:' ',
     content: <p></p>,
   },
   {
@@ -305,6 +305,7 @@ export const experience: TimelineItem[] = [
     date: 'August 2019 - November 2022',
     location: 'Local 802 AFM',
     title: 'Data Analyst | Systems Engineer',
+    title2: ' ',
     content: (
       <ol>
         <li style={{marginBottom: '10px'}}>•Built an mlp for member churn that fueled an outreach
@@ -333,6 +334,7 @@ export const experience: TimelineItem[] = [
     date: 'April 2018 - August 2019',
     location: 'Local 802 AFM',
     title: 'Systems Administrator',
+    title2: ' ',
     content: (
       <ol>
         <li style={{marginBottom: '10px'}}>•Coordinated with Sophos Antivirus Global Dev team that lead to a global patch for their 
