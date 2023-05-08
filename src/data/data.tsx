@@ -288,13 +288,15 @@ export const education: TimelineItem[] = [
     date: 'December 2022',
     location: 'Newark, New Jersey',
     title: 'Master of Science - MS, Computational Data Science',
+    title2:'',
     content: <p></p>,
   },
   {
     date: 'May 2021',
     location: 'Newark, New Jersey',
     title: 'Bachelor of Arts - BA, Molecular Biology',
-    content: <p>Minor - Information Technology</p>,
+    title2: 'Minor - Information Technology',
+    content: <p></p>,
   },
 ];
 
