@@ -10,7 +10,7 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage1 from '../images/portfolio/streamlit_hero.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
@@ -215,7 +215,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Streamlit',
     description: 'Here is a collection of my custom ml apps built with streamlit!',
-    url: 'https://peruskjr-heart-streamlit-app-5phejt.streamlit.app/',
+    url: 'https://peruskjr-streamlit-welcome-vzmbmr.streamlit.app/',
     image: porfolioImage1,
   },
   {
