@@ -219,9 +219,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'TBD',
-    description: '',
-    url: '',
+    title: 'CatDog',
+    description: 'Check out my CatDog flask app!',
+    url: 'http://test.paulrusk.com:5000/',
     image: porfolioImage2,
   },
   {
