@@ -214,19 +214,19 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Streamlit',
-    description: 'Here is a collection of my custom ml apps built with streamlit!',
+    description: 'Here is a collection of my custom ml apps built with streamlit.',
     url: 'https://peruskjr-streamlit-welcome-vzmbmr.streamlit.app/',
     image: porfolioImage1,
   },
   {
     title: 'CatDog',
-    description: 'Check out my CatDog flask app!',
+    description: 'Check out my CatDog flask app.',
     url: 'http://flask.paulrusk.com/',
     image: porfolioImage2,
   },
   {
     title: 'TBD',
-    description: 'Check back soon for "Hotdog And Not Hotdog',
+    description: 'Check back soon for "Hotdog And Not Hotdog"!',
     url: '',
     image: porfolioImage3,
   },
