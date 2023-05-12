@@ -338,7 +338,7 @@ export const experience: TimelineItem[] = [
     content: (
       <ol>
         <li style={{marginBottom: '10px'}}>•Coordinated with Sophos Antivirus Global Dev team that lead to a global patch for their 
-        10 million users. One of their services wascausing a kernel panic on Win10.</li>
+        10 million users. One of their services was causing a kernel panic on Win10.</li>
 
         <li style={{marginBottom: '10px'}}>•Managed communications between various hardware and OS’s, both Windows and Linux, such as
         servers, DCS, switches, firewalls, SANs, etc.</li>
