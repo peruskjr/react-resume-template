@@ -18,8 +18,6 @@
   ],
   "ignorePatterns": ["*/public", "*/node_modules/*", "*/.next/*", "*/dist/*"],
   "rules": {
-    "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error",
     "react/display-name": "off",
     // The next two rules should be errors. But for now we"ll leave them as warnings since this will take a while
     "react-memo/require-usememo": "error",
