@@ -1,8 +1,8 @@
 import 'tailwindcss/tailwind.css';
 import '../globalStyles.scss';
 
-import type {AppProps} from 'next/app';
 import {memo} from 'react';
+import type {AppProps} from 'next/app';
 import {Analytics} from '@vercel/analytics/react';
 
 
