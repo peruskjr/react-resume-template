@@ -8,7 +8,7 @@ import {Analytics} from '@vercel/analytics/react';
 const MyApp = memo(({Component, pageProps}: AppProps): JSX.Element => {
   return (
     <>
-      <Component {...pageProps} />
+      <Component{...pageProps}/>
       <Analytics />
     </>
   );
