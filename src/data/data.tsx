@@ -186,7 +186,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'React.js',
-        level: 4,
+        level: 6,
       },
       {
         name: 'Flask',
@@ -302,48 +302,35 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'August 2019 - November 2022',
+    date: 'April 2018 - November 2022',
     location: 'Local 802 AFM',
     title: 'Data Analyst | Systems Engineer',
     title2: ' ',
     content: (
       <ol>
-        <li style={{marginBottom: '10px'}}>•Built an mlp for member churn that fueled an outreach
-        program, reducing membership resignations by about 20%.</li>
+        <li style={{marginBottom: '10px'}}>•Centralized data from several dated proprietary systems to formulate a more stable and robust way of accessing mission critical
+information for employees. This included extracting data from an old COBOL system as well as another proprietary database.</li>
 
-        <li style={{marginBottom: '10px'}}>•Centralized data from several dated proprietary systems to formulate a more stable and robust way of accessing
-        mission critical information for employees. This included extracting data from an old COBOL system as well as 
-        another proprietary database.</li>
+        <li style={{marginBottom: '10px'}}>•Created an interactive dashboard displaying a comparative analysis of the volume of work completed over time by our members
+for NY Senators. This led to increased funding. Technologies used: Python, SQL, COBOL, Tableau</li>
 
-        <li style={{marginBottom: '10px'}}>•Created an interactive dashboard displaying a comparative analysis of the volume of work completed over
-        time by our members for NY Senators. This led to increased funding.</li>
+        <li style={{marginBottom: '10px'}}>•Automated workflows and monthly financial reports between MYSQL systems using Python, saving 20-30 hours of employee
+labor a month.</li>
 
-        <li style={{marginBottom: '10px'}}>•Automated workflows and monthly financial reports between SQL systems using Python, saving several hours
-        of employee labor a month.</li>
+        <li style={{marginBottom: '10px'}}>•Identified and recovered over $700,000 of previously unallocated funds. By meticulously analyzing financial records and
+reconciling discrepancies, I was able to uncover these funds that had previously gone unnoticed.
+</li>
 
-        <li style={{marginBottom: '10px'}}>•Used analytical methods to centralize key documents, finding over $700,000 of unallocated funds.</li>
+        <li style={{marginBottom: '10px'}}>•Implemented an automated payment reminder that drastically reduced the number of suspended members per quarter.
+</li>
 
-        <li style={{marginBottom: '10px'}}>•Implemented an automated payment reminder that drastically reduced the amount of suspended members per quarter.</li>
+        <li style={{marginBottom: '10px'}}>•Provided experience as technical lead to assist leadership in restructuring several departments by carefully analyzing existing
+processes, identifying bottlenecks, and implementing streamlined procedures.</li>
 
-        <li>•Mapped out and redesigned the workflow of each department to plan for efficiencies, allowing a 60 person organization
-        to survive on a skeleton staff of 8 during COVID shutdowns.</li>
-      </ol>
-    ),
-  },
-  {
-    date: 'April 2018 - August 2019',
-    location: 'Local 802 AFM',
-    title: 'Systems Administrator',
-    title2: ' ',
-    content: (
-      <ol>
-        <li style={{marginBottom: '10px'}}>•Coordinated with Sophos Antivirus Global Dev team that lead to a global patch for their 
-        10 million users. One of their services was causing a kernel panic on Win10.</li>
+        <li style={{marginBottom: '10px'}}>•Coordinated with Sophos Antivirus Global Dev team that lead to a global patch for their 10 million users. One of their services
+was causing a kernel panic on Win10.</li>
 
-        <li style={{marginBottom: '10px'}}>•Managed communications between various hardware and OS’s, both Windows and Linux, such as
-        servers, DCS, switches, firewalls, SANs, etc.</li>
-
-        <li>•Experience with the use of virtualization, including both VMWare and Hyper-V.</li>
+        <li style={{marginBottom: '10px'}}>•Prepared a dashboard that visualized member demographics for the cultural and inclusivity team that worked alongside an award-winning magazine.</li>
       </ol>
     ),
   },
