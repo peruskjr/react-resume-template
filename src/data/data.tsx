@@ -230,7 +230,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'TBD',
-    description: 'Check back soon for "Hotdog And Not Hotdog"!',
+    description: '',
     url: '',
     image: porfolioImage3,
   },
