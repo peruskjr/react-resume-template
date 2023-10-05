@@ -306,6 +306,33 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'November 2022 - Present',
+    location: 'Consultant',
+    title: 'Data Analyst | Developer',
+    title2: ' ',
+    content: (
+      <ol>
+        <li style={{marginBottom: '10px'}}>•Conducted a thorough analysis of chat service logs for a prominent online shopping website, a key client of a major tech
+company, to investigate customer wait time discrepancies.</li>
+
+        <li style={{marginBottom: '10px'}}>•Employed data cleaning techniques to improve data quality, ensuring the accuracy and reliability of analytical results.</li>
+
+        <li style={{marginBottom: '10px'}}>•Developed automated data preprocessing scripts, reducing manual effort and improving efficiency.</li>
+
+        <li style={{marginBottom: '10px'}}>•Crafted data-driven narratives and reports to convey insights to stakeholders, making data more accessible and actionable.
+</li>
+
+        <li style={{marginBottom: '10px'}}>•Presented findings in a visually appealing and compelling manner to enhance decision-making.
+</li>
+
+        <li style={{marginBottom: '10px'}}>•Collaborated in the development of an internal web application streamlining website creation for clients, enabling employees to
+automate the process efficiently.</li>
+
+      </ol>
+    ),
+  },
+
+  {
     date: 'April 2018 - November 2022',
     location: 'Local 802 AFM',
     title: 'Data Analyst | Systems Engineer',
@@ -335,6 +362,18 @@ processes, identifying bottlenecks, and implementing streamlined procedures.</li
 was causing a kernel panic on Win10.</li>
 
         <li style={{marginBottom: '10px'}}>•Prepared a dashboard that visualized member demographics for the cultural and inclusivity team that worked alongside an award-winning magazine.</li>
+      </ol>
+    ),
+  },
+
+  {
+    date: 'April 2020 - September 2020',
+    location: 'RMIT Services',
+    title: 'Full Stack Web Developer',
+    title2: '(While laid off during Covid Shutdowns)',
+    content: (
+      <ol>
+        <li style={{marginBottom: '10px'}}>• Created and maintained websites for clients with tools and technologies including AWS, React, Next, Squarespace, and WordPress.</li>
       </ol>
     ),
   },
